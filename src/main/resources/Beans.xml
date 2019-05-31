@@ -8,7 +8,10 @@
     <bean id="dataSource"
           class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
         <!--<property name = "driverClassName" value = "com.mysql.jdbc.Driver"/>-->
+        <!--
         <property name = "url" value = "jdbc:mysql://localhost:3306/whatever_your_heart_desires?useSSL=false"/>
+        -->
+        <property name = "url" value = "jdbc:mysql://b5b16a9f1506c5:a6753bb7@us-cdbr-iron-east-02.cleardb.net/heroku_b25e322f9da61a9?reconnect=true"/>
         <property name = "username" value = "root"/>
         <property name = "password" value = "root"/>
     </bean>
