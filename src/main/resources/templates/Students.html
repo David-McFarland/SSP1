@@ -22,11 +22,14 @@
         </tr>
     </table>
 
-    <form action="#" th:action="@{/students}" th:object="${studentInput}" method="post">
-        <p>Name: <input type="text" th:field="*{name}" /></p>
-        <p>Age: <input type="text" th:field="*{age}" /></p>
-        <p><input type="submit" name="add" value="Add New Student" /></p>
-    </form>
+
 </div>
+
+<form action="#" th:action="@{/students}" th:object="${studentInput}" method="post">
+    <p>Name: <input type="text" th:field="*{name}" /></p>
+    <p>Age: <input type="text" th:field="*{age}" /></p>
+    <p><input type="submit" name="add" value="Add New Student" /></p>
+</form>
+
 </body>
 </html>
